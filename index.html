@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan Shoes | Desafio 2 - Codelândia</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="bar-top">
+      <span>Ganhe R$ 10,00 de desconto no frete</span>
+    </div>
+    <div class="brand">
+      <a href="/">Jordan Shoes</a>
+    </div>
+  </header>
+  <section class="fullbanner">
+    <div class="headline">
+      <div class="container">
+        <h1>A melhor loja de Jordan</h1>
+        <div id="typed-strings">
+          <p>O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+        </div>
+        <p id="typed"></p>
+      </div>
+    </div>
+    <div class="bg-fullbanner"></div>
+  </section>
+  <main class="container">
+    <section class="list-products">
+      <header>
+        <h1>Destaques</h1>
+        <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
+      </header>
+      <div class="cards-products">
+        <div class="card-product">
+          <img src="./assets/image/1.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/2.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/3.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/4.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/5.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/6.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/7.png" alt="">
+        </div>
+        <div class="card-product">
+          <img src="./assets/image/8.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>Todos os direitos reservados.</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typedSpeed: 30
+    })
+  </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    const sr = ScrollReveal({
+      origin: 'bottom',
+      distance: '50px',
+      duration: 2000,
+      reset: true
+    });
+
+    ScrollReveal().reveal('.bg-fullbanner', {
+      delay: 100
+    });
+    ScrollReveal().reveal('.card-product', {
+      delay: 200
+    });
+    ScrollReveal().reveal('img', {
+      delay: 300
+    });
+  </script>
+</body>
+
+</html>
