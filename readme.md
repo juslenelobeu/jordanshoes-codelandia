@@ -5,12 +5,15 @@
   <img align="center" src="https://raw.githubusercontent.com/juslenelobeu/jordanshoes-codelandia/master/assets/image/screenshot.jpg" width="100%">
 
   <h1>Desafio 'Jordan Shoes'</h1>
-  <p>Proposto pelo <strong>Iure</strong> criador da comunidade Codelandia no discord</p>
-  <h2>🔖&ensp;Sobre Projeto</h2>
-  <p>Página inicial de um catálogo com alguns exemplos de produtos listados</p>
+  <p>Proposto pelo <a href="https://github.com/iuricode">Iure Silva</a> criador da comunidade Codelândia</p>
+  
   <h3>Link do projeto: <a href="https://juslenelobeu.github.io/jordanshoes-codelandia/" target="_blank">preview</a></h3>
 </div>
 <hr>
+
+<h2>🔖&ensp;Sobre Projeto</h2>
+<p>Página inicial de um catálogo com alguns exemplos de produtos listados</p>
+  
 <h3>🚀&ensp;Tecnologias</h3>
 <ul>
   <li>HTML</li>
@@ -18,14 +21,24 @@
   <li>Lib <a href="https://scrollrevealjs.org/">ScrollReveal</a></li>
   <li>Lib <a href="https://github.com/mattboldt/typed.js/">Typed</a></li>
 </ul>
+
 <h3>✨&ensp;Melhorias em breve...</h3>
 <ul>
-  <li>[  ] Ativar hover com detalhes do card de produto</li>
-  <li>[  ] Abrir card em modal com mais informações do produto</li>
-  <li>[  ] Ícone para favoritar</li>
-  <li>[  ] Dark mode</li>
-  <li>[  ] Pagina de erro</li>
+  <li>[ &ensp; ] Ativar hover com detalhes do card de produto</li>
+  <li>[ &ensp; ] Abrir card em modal com mais informações do produto</li>
+  <li>[ &ensp; ] Ícone para favoritar</li>
+  <li>[ &ensp; ] Dark mode</li>
+  <li>[ &ensp; ] Pagina de erro</li>
 </ul>
+
+
+<h3>⚡&ensp;Outros desafios da Codelândia</h3>
+<ul>
+  <li>Desafio 1: <a href="https://github.com/juslenelobeu/blog-codelandia">Blog Codelândia</a></li>
+  <li>Desafio 3: <a href="https://github.com/juslenelobeu/onepage-codelandia">One Page</a></li>
+</ul>
+
+<hr>
 <h3>👩🏻‍💻&ensp;Autora</h3>
 <a href="https://juslenelobeudesigner.com.br/">
   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/28795411?v=4" width="100px" alt=""/>
